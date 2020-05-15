@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+   <!-- Bootstrap CSS -->
+  <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+  body p{
+font-family: monospace;
+font-size: 20px;
+
+  }
+  body h3{
+    font-family:  Font Shui;
+  }
+
+  	.marqu{
+		padding: 5px;
+		background-color: #009432;
+		color: white;
+	}
+	  .carousel-inner img {
+    width: 100%;
+  }
+  .carousel-caption{
+    padding-bottom: 200px;
+  }
+  .carousel-caption h3{
+
+font-size: 50px;
+text-transform: uppercase;
+  }
+ 
+  .nav-item {
+    padding-left: 20px;
+  }
+
+  .uper{
+/*display:flex;
+justify-content: center;
+align-items:center;*/
+position:relative;
+width: 100%;
+flex-direction:column;
+background-color:#26de81;
+
+z-index:1111;}
+
+.namaz-cont{
+
+background-color:#26de81;
+}
+/* Images between <hr> tag */
+
+hr {
+padding: 0;
+border: none;
+height: 1px;
+background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+color: #333;
+text-align: center;
+}
+/*hr:after {
+content:" ";
+display: inline-block;
+position: relative;
+top: -2.1em;
+font-size: 1.5em;
+padding: 19px 1.75em;
+background: #fff url() no-repeat scroll center;
+background-size: 90px 90px;
+height: 50px;
+}*/
+  .img-fluid{
+  background-image: url("ab.jpg");
+  min-height: 300px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body>
+  
+	<div class="marqu">
+<marquee> 
+
+O Allah, bestow Your favor on Muhammad and on the family of Muhammad as You have bestowed Your favor on Ibrahim and on the family of Ibrahim, You are Praiseworthy, Most Glorious. O Allah, bless Muhammad and the family of Muhammad as You have blessed Ibrahim and the family of Ibrahim, You are Praiseworthy, Most Glorious.<!-- 
+	اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكَ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ
+ -->
+</marquee></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <div class="container">
+  <a class="navbar-brand" ><img src="lg.png" style="width: 15%"></a>
+  <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="bayan.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quran.html">Complete Quran </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="learn.html">Pillars </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+    </ul>
+  </div></div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images.jpeg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption ">
+        <h3 class="text-danger">Surah Ar-Rahman 55:13 </h3>
+        <p class="text-light ">Which then, of the favours of your Lord will you twain deny?</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="slide.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption text-center ">
+        <h3 class="text-danger">Surah Al-Baqarah 2:216</h3>
+        <p>It may be that you dislike a thing which is good for you and that you like a thing which is bad for you. Allah knows but you do not know</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="slide2.png" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3 class="text-danger">Surah Ibrahim 14:7</h3>
+        <p>And [remember] when your Lord proclaimed, ‘If you are grateful, I will surely increase you [in favor]; but if you deny, indeed, ‘My punishment is severe</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev " href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon "></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+  <audio controls style="width: 100%;" >
+  <source src="http://www.humariweb.com/quran/abd-ar/55-(hamariweb.com).mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<div class="container-fluid fh5co-network">
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-6 ">
+        <h4 class="wow flip color-light pt-5">Welcome To Web</h4>
+        
+        <hr class="text-center">
+          <p class="wow bounceInDown">Born in Mecca, in western Arabia, Muhammad (ca. 570–632), last in the line of Judeo-Christian prophets, received his first revelation in 610. Muslims believe that the word of God was revealed to him by the archangel Gabriel in Arabic, who said, “Recite in the name of thy Lord …” (Sura 96). These revelations were subsequently collected and codified as the Qur’an (literally “recitation” in Arabic), the Muslim holy book. </p>
+      </div>
+      <div class="col-md-6">
+        <figure class="wow bounceInDown"> <img src="giphy.gif" alt="gym" class="img-fluid" style="width: 80%" /> </figure>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="img-fluid">
+  <div class="overly">
+    <div class="container">
+       <div class=" col-12 pt-4 text-danger">
+      <h2 class="wow bounceInLeft" data-wow-delay=".25s">ABOUT US</h2>
+      <hr/>
+      <p class="wow bounceInRight" data-wow-delay=".25s">Islam is the second largest religion in the world (after Christianity) and will soon be the second largest religion in America.
+
+Muslims are and will increasingly be our neighbors, colleagues at work, and fellow citizens.
+
+Although Islam is similar in many ways to Judaism and Christianity, most Americans and Europeans think of Muslims as strange, foreign, and frightening, inevitably linked to headline terrorist events. This state of affairs needs to change – and can change with better information and deeper understanding.
+
+We must put an end to the spiral of fear, hatred, and violence, spawned by ignorance, that no longer only afflicts other countries but has come home to America. </p>
+     <a class="btn btn-lg btn-outline-primary mb-4" href="bayan.html" role="button">Learn More</a>
+     
+      
+    </div> 
+  </div>
+  </div>
+</div>
+
+<section>
+  <h2 class="text-center">OUR PHILOSOPHY</h2>
+<hr>
+
+<div class="container-fluid">
+  <div class="row text-center  pt-5 pb-5">
+    <div class="col-lg-3 col-md-4 col-12">
+
+      <img src="pic2.jpg" style="width: 30%; height: 10vh">
+      <h3>KNOWLEDGE</h3>
+      <p>A critshahal component
+of every Muslims journey is
+knowledge.</p>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+
+      <img src="pic3.jpg" style="width: 30%; height: 10vh">
+ <h3> Spirituality</h3>
+<p>Ihsan was the way of our
+Messenger</p>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+      <img src="pic.jpg" style="width: 30%; height: 10vh">
+    <h3>  Community</h3>
+<p>We pray together, we break
+our fast together, Islam is
+community</p>
+    </div>
+    <div class="col-lg-3 col-md-4 col-12">
+
+      <img src="pic4.jpg" style="width: 30%; height: 10vh">
+    <h3>  Service</h3>
+<p>Being in service to others is
+the duty of every Muslim</p>
+    </div>
+
+  </div></div>
+
+
+</section>
+<!-- 
+<div class="container-fluid" ><div class="uper">
+<svg   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" ><path fill="#fff" fill-opacity="1" d="M0,96L26.7,133.3C53.3,171,107,245,160,229.3C213.3,213,267,107,320,85.3C373.3,64,427,128,480,170.7C533.3,213,587,235,640,234.7C693.3,235,747,213,800,170.7C853.3,128,907,64,960,74.7C1013.3,85,1067,171,1120,176C1173.3,181,1227,107,1280,96C1333.3,85,1387,139,1413,165.3L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+
+  <div class="row text-center  pt-5 pb-5 ">
+    <div class="col-lg-7 col-md-6 col-12 namaz-cont">
+      
+  <h2 class="text-warning wow fadeOutTopLeft">NAMAZ TIMINGS</h2>
+<hr class="bg-light">
+    
+  </div>
+    <div class="col-lg-1 col-md-6 col-12 namaz-cont">
+      
+  <h4 class=" pt-2 text-warning wow bounceInshrink">FAJAR</h4><hr class="bg-light">
+  <p> 5:30</p>
+
+    </div>
+ <div class="col-lg-1 col-md-6 col-12  namaz-cont">
+      
+  <h4 class=" pt-2 text-warning">DUHUR</h4><hr class="bg-light">  <p> 5:30</p>
+
+    </div>
+    <div class="col-lg-1 col-md-6 col-12 namaz-cont ">
+      
+  <h4 class=" pt-2 text-warning">ASR</h4> <hr class="bg-light"> <p> 5:30</p>
+
+    </div><div class="col-lg-1 col-md-6 col-12 namaz-cont">
+      
+  <h4 class=" pt-2 text-warning">MAGRIB</h4> <hr class="bg-light"> <p> 5:30</p>
+
+    </div><div class="col-lg-1 col-md-6 col-12 namaz-cont">
+      
+  <h4 class=" pt-2 text-warning">ISHA</h4> <hr class="bg-light"> <p> 5:30</p>
+
+    </div></div>
+    <div class="uper">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L26.7,133.3C53.3,171,107,245,160,229.3C213.3,213,267,107,320,85.3C373.3,64,427,128,480,170.7C533.3,213,587,235,640,234.7C693.3,235,747,213,800,170.7C853.3,128,907,64,960,74.7C1013.3,85,1067,171,1120,176C1173.3,181,1227,107,1280,96C1333.3,85,1387,139,1413,165.3L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+</div>
+
+</div></div>
+ -->
+<!-- card -->
+<section>
+  <h1 class="text-center pt-4 wow bounceInUp">Pillars Of Islam</h1> <hr>
+<div class="container-fluid text-center ">
+  <div class="row">
+
+ <div class="col-lg-4 col-md-6 col-12 pt-4 wow bounceInRight ">
+
+  <div class="card" style="width: 400px">
+    <img class="card-img-top" src="haj.jpeg" style="width: 100%">
+    <div class="card-body">
+       <h2>HAJJ</h2>
+<!--   <button class="btn btn-primary">Learn More</button> -->
+<!-- Button trigger modal -->
+ <a class="btn btn-lg btn-outline-warning mb-4" href="learn.html" role="button">Learn More</a>
+
+
+  </div>
+
+</div>
+
+</div>
+ <div class="col-lg-4 col-md-6 col-12 pt-4 wow bounceInDown">
+  
+  <div class="card" style="width: 400px">
+    <img class="card-img-top" src="namaz.jpeg" style="width: 100%;height: 34vh">
+    <div class="card-body">
+       <h2>SALAT</h2>
+ <!-- Button trigger modal -->
+ <a class="btn btn-lg btn-outline-warning mb-4" href="learn.html" role="button">Learn More</a>
+
+    </div>
+    
+  </div>
+
+
+
+</div> <div class="col-lg-4 col-md-6 col-12 pt-4 wow bounceInLeft">
+  
+  <div class="card" style="width: 400px">
+    <img class="card-img-top" src="fast.jpeg" style="width: 100%; height: 34vh">
+    <div class="card-body">
+       <h2>SAWM</h2><!-- Button trigger modal -->
+ <a class="btn btn-lg btn-outline-warning mb-4" href="learn.html" role="button">Learn More</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<div class="container-fluid text-center">
+  <div class="row">
+
+ <div class="col-lg-4 col-md-6 col-12 pt-4 text-center wow bounceInLeft">
+  
+  <div class="card" style="width: 400px">
+    <img class="card-img-top" src="zakat.jpeg" style="width: 100%; height: 34vh">
+    <div class="card-body">
+     <h2>ZAKAT</h2><!-- Button trigger modal -->
+ <a class="btn btn-lg btn-outline-warning mb-4" href="learn.html" role="button">Learn More</a>
+
+    </div>
+    
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-12  pt-4 text-center wow bounceInRight">
+ 
+  <div class="card" style="width: 400px">
+    <img class="card-img-top" src="shah.jpg" style="width: 100%; height: 34vh">
+    <div class="card-body">
+       <h2>SHAHADA</h2>
+ <!-- Button trigger modal -->
+ <a class="btn btn-lg btn-outline-warning mb-4" href="learn.html" role="button">Learn More</a>
+    </div>
+    
+  </div>
+
+
+</div>
+<div class="col-lg-4 col-md-6 col-12 pt-4 pb-5 text-center wow bounceInRight">
+ 
+  <div class="card" style="width: 400px">
+    <h2>Events</h2><hr>
+<div class="heading5">
+<marquee direction="up" height="303px"> <p>Islamic events calendar for Pakistan, information about the Islamic festivals and events. Muslims living in Pakistan are always concerned about finding the exact dates if Islamic events, and festivals. There are 12 Hijri Islamic months, the first Islamic month of the year is Muharram, than Safar, Rabi al-awwal, Rabi al-thani, Jumada al-awwal, Jumada al-thani, Rajab, Shaban, Ramadan, Shawwal, Dhul Qadah & Dhul Hijja. Every year there is one Holy month of Ramadan, celebrated in Pakistan and all over the world. Every islamic year has two Eids, Eid al Fitar and Eid ul Adha, Eid Milad un Nabi is celebrated by Muslims in Pakistan too. Find out when is the Shab e Miraj, Shab e Barat, Ashura Ramadan, Eid ul Fitr, Eid ul Adha and Eid Milad un Nabi will be celebrated in Pakistan in 2020. There is also a complete Islamic Calendar with Hijri dates of Pakistan according to Gregorian calendar</br></p>
+  </marquee>
+</div>
+    
+  </div>
+
+
+</div>
+</div>
+</div>
+
+
+
+<footer class="container-fluid bg-dark  text-light">
+  <div class="container" style="width: 100%">
+    <div class="row">
+      <div class="col-md-3 footer1 d-flex wow bounceInLeft" data-wow-delay=".25s">
+        <div class="d-flex flex-wrap align-content-center"> 
+          <a><img src="lg.png" style="width:30%"></a>
+          <p>Islam is the second most popular religion in the world with over a thousand million followers.</p>
+          <p>&copy; 2020  All rights reserved.<br> Design by Seema Sikander</p>
+        </div>
+      </div>
+      <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
+        <div class="form-box bg-light text-warning text-center">
+          <h4>CONTACT US</h4>
+          <table class="table table-responsive d-table">
+            <tr>
+              <td><input type="text" style="border-bottom-color: black" class="form-control pl-0" placeholder="NAME" /></td>
+              <td><input type="email" style="border-bottom-color: black" class="form-control pl-0" placeholder="EMAIL" /></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="text" style="border-bottom-color: black"  class="form-control pl-0" placeholder="ADDRESS" /></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="text" style="border-bottom-color: black" class="form-control pl-0" placeholder="MESSAGES" /></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="text-center pl-0"><button type="submit" class="btn btn-warning">SEND</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-3 footer3 wow bounceInRight mt-5 pt-5" data-wow-delay=".25s">
+        <h5>ADDRESS</h5>
+        <p>Baldia Town Mouach Goth Karachi</p>
+        
+        <h5>EMAIL</h5>
+        <p>seemasikander116@gmail.com</p>
+       
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+<!-- 
+<script src="js/jquery.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+  $('.carousel').carousel();
+</script>
+</body>
+</html>
